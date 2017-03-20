@@ -132,10 +132,10 @@ var Engine = (function(global) {
         }
 		ctx.font = "35px Helvetica";
 		ctx.fillStyle = "white";
-		ctx.fillText("Score: " + score, 20, 100);
-		ctx.strokeText("Score: " + score, 20, 100);
-		ctx.fillText("Deaths: " + deaths, 290, 100);
-		ctx.strokeText("Deaths: " + deaths, 290, 100);
+		ctx.fillText("Score: " + timNS.score, 20, 100);
+		ctx.strokeText("Score: " + timNS.score, 20, 100);
+		ctx.fillText("Deaths: " + timNS.deaths, 290, 100);
+		ctx.strokeText("Deaths: " + timNS.deaths, 290, 100);
         renderEntities();
     }
 
